@@ -22,7 +22,7 @@ const Login = () => {
          return handleError("All fields are required ")
        }
        try {
-         const url="https://typing-test-app-backend.vercel.app/auth/login";
+         const url="https://back-three-sable.vercel.app/auth/login";
          const response=await fetch(url,{method:"POST",
             headers:{
                 "content-Type":"application/json"
