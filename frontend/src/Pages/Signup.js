@@ -23,7 +23,7 @@ const Signup = () => {
          return handleError("All fields are required ")
        }
        try {
-         const url="https://back-three-sable.vercel.app/auth/signup";
+         const url="https://typing-test-app-2.onrender.com/auth/signup";
          const response=await fetch(url,{method:"POST",
             headers:{
                 "content-Type":"application/json"
