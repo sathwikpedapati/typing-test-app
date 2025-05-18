@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 app.get("/pong",(req,res)=>{
     res.send("pong");
-})
+});
 app.use("/auth",AuthRouter );
 app.listen(PORT,()=>{
     console.log(`server is running at ${PORT}`)
